@@ -7,8 +7,7 @@ window.onload = function() {
 var particles = Particles.init({
     selector: ".background",
     color: ["#ffffff", "#26c8c8", "#e15f5f"],
-    connectParticles: true
-  })
+   
 connectParticles: true,
   responsive: [
     {
