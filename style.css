@@ -55,25 +55,26 @@ a {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 360px) {
 header {
     padding: 1px 20px;
 }
 .box {
-    height: 400px !important;
+    
+    height: auto;
     padding: 1px;
     border: 0;
 }
 h1 {
-    font-size: 2.5rem !important;
+    font-size: 1.7em ;
     color:  #e15f5f;
     }
 h2 {
-    font-size: 2.2rem !important;
+    font-size: 1.2em !important;
     margin: 1px !important;
 }
 p {
-    font-size: 2rem !important;
+    font-size: 1em !important;
     font-family: "Roboto", sans-serif;
 }
 #mazalMess { 
