@@ -17,6 +17,8 @@ header {
     padding: 40px;
     color:  #e15f5f;
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
 } 
 
 main {
