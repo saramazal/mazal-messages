@@ -9,5 +9,16 @@ var particles = Particles.init({
     color: ["#ffffff", "#26c8c8", "#e15f5f"],
     connectParticles: true
   })
-
+connectParticles: true,
+  responsive: [
+    {
+      breakpoint: 375,
+      options: {
+        color: "#e15f5f,
+        maxParticles: 43,
+        connectParticles: false
+      }
+    }
+  ]
+});
  
